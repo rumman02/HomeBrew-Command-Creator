@@ -21,8 +21,47 @@
     padding: 5px 10px;
     display: flex;
     align-items: center;
+    position: relative;
 }
 
 .commandCopyBar p {
     font-family: "JetBrains Mono", monospace;
+}
+
+.fullCommand {
+    overflow-x: scroll;
+}
+
+.fullCommand p {
+    white-space: nowrap;
+    text-wrap: nowrap;
+}
+
+.fullCommandCopy {
+    width: 100px;
+    background-color: gainsboro;
+    height: 100%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.1s ease;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+}
+
+.fullCommandCopy:hover {
+    background-color: rgb(175, 175, 175);
+}
+
+.fullCommandCopy:active {
+    background-color: rgb(240, 240, 240);
+    transform: scale(0.9);
+}
+
+.fullCommandCopy span {
+    display: inline-block;
+    width: 50px;
+    text-align: center;
 }

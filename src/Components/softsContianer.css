@@ -21,13 +21,20 @@
 
 .softsContianer input[type='checkbox'] {
     position: absolute;
-    left: 0;
     top: 0;
+    left: 0;
     width: 15px;
 
 }
 
+label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .iconContainer {
+    /* outline: 10px solid red; */
     width: 30%;
 }
 
@@ -38,6 +45,8 @@
 
 
 .detailsContainer {
+    /* outline: 10px solid red; */
+
     width: 65%;
     height: 100%;
     display: flex;
@@ -49,6 +58,7 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 20px;
 }
 
 .details {
@@ -87,6 +97,7 @@
     align-items: center;
     position: relative;
     /* outline: 1px solid; */
+    cursor: pointer;
 }
 
 .commandBar .command {
@@ -125,10 +136,6 @@
     color: black;
     background-color: rgb(209, 209, 209);
 }
-
-/* .commandBar: .copy {
-    color: red;
-} */
 
 .commandBar:active .copy {
     width: 100%;

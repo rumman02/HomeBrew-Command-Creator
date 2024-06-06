@@ -31,16 +31,5 @@
         "command": "brew install --cask notion-enhanced",
         "shortCommand": "notion-enhanced",
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/c7a8d6dd40776ce63ac8777c8839f707_0H7z3br1dS.png"
-    },
-    {
-        "id": 4,
-        "softName": "Notion-enhanced",
-        "cost": "Free",
-        "hasUpgradePlan": "No",
-        "hasTiral": "No",
-        "trialLength": "0",
-        "command": "brew install --cask notion-enhanced",
-        "shortCommand": "notion-enhanced",
-        "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/c7a8d6dd40776ce63ac8777c8839f707_0H7z3br1dS.png"
     }
 ]

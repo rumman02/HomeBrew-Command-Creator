@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import SoftsContainer from "./SoftsContainer";
 import './listsContainer.css';
 
-const ListsContainer = () => {
+const ListsContainer = (props) => {
     const [datas, setDatas] = useState([]);
 
     useEffect(() => {
@@ -18,7 +18,7 @@ const ListsContainer = () => {
 
     return (
         <div className="listsContainer">
-            {datas.length && <SoftsContainer datas={datas} />}
+            {datas.length && <SoftsContainer datas={datas} getTotalCommands={props.getTotalCommands} />}
         </div>
     );
 };
