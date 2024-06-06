@@ -29,6 +29,10 @@ const SoftsContainer = ({ datas, getTotalCommands }) => {
         }
     }
     const handleCheckedOnChange = (event) => {
+        // setChecked({
+        //     ...checked,
+        //     [event.target.value]: event.target.checked
+        // })
 
 
     };
@@ -62,13 +66,13 @@ const SoftsContainer = ({ datas, getTotalCommands }) => {
 
     const groupElement = datas.map((data) => {
 
-        const { id, softName, cost, command, shortCommand, hasUpgradePlan, hasTiral, trialLength, icon } = data;
-
+        const { id, softName, cost, command, shortCommand, hasUpgradePlan, hasTrial, trialLength, icon } = data;
+        console.log(hasUpgradePlan, hasTrial, trialLength)
         return (
             <div className='softsContianer' htmlFor={shortCommand} key={id} onClick={onClickSoftsContainer}>
                 <label htmlFor={shortCommand}>
                     <div className='iconContainer'>
-                        <input type="checkbox" id={shortCommand} name={shortCommand} value={shortCommand} checked={!!checked[shortCommand]} />
+                        <input type="checkbox" id={shortCommand} name={shortCommand} value={shortCommand} checked={!!checked[shortCommand]} onChange={handleCheckedOnChange} />
                         <div>
                             <img src={icon} alt={`${shortCommand} image`} />
                         </div>
@@ -79,9 +83,13 @@ const SoftsContainer = ({ datas, getTotalCommands }) => {
                         <div className='details'>
                             <p>{cost}</p>
                             <div className='trialDetails'>
-                                <p className='one'>Has upgrade plan</p>
-                                <p className='two'>Has trial</p>
-                                <p className='three'>{trialLength}</p>
+                                {hasUpgradePlan === 'Yes' && <p className='one'>Has upgrade plan</p>}
+                                {hasTrial === 'Yes' && <p className='two'>Has trial</p>}
+                                {trialLength !== '0 days' && <p className='three'>{trialLength}</p>}
+                                {/* <p className='one'>{hasUpgradePlan === 'Yes' && 'Has upgrade plan'}</p> */}
+                                {/* <p className='two'>{hasTiral === 'Yes' && 'Has trial'}</p> */}
+                                {/* <p className='three'>{trialLength}</p> */}
+                                {/* <p className='three'>{trialLength !== '0 days' && trialLength}</p> */}
                             </div>
                         </div>
 
