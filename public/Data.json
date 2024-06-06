@@ -63,7 +63,7 @@
         "trialLength": "0 days",
         "command": "brew install --cask binance",
         "shortCommand": "binance",
-        "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/d7b4fb796d61b028b8a363c6b99e3ff7_low_res_Brave_Browser.png"
+        "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/93cbefb51b268ec49bec0106f3159a6d_low_res_Binance.png"
     },
     {
         "id": 7,
@@ -85,7 +85,7 @@
         "trialLength": "0 days",
         "command": "brew install --cask breaktimer",
         "shortCommand": "breaktimer",
-        "icon": ""
+        "icon": "https://breaktimer.app/images/logo.svg"
     },
     {
         "id": 9,
@@ -107,7 +107,7 @@
         "trialLength": "14 days",
         "command": "brew install --cask dropzone",
         "shortCommand": "dropzone",
-        "icon": "http://"
+        "icon": "https://aptonic.com/_next/static/media/app_icon.408123d3.webp"
     },
     {
         "id": 11,
@@ -199,6 +199,17 @@
     },
     {
         "id": 19,
+        "softName": "LookAway",
+        "cost": "Paid",
+        "hasUpgradePlan": "No",
+        "hasTrial": "Yes",
+        "trialLength": "7 days",
+        "command": "brew install --cask lookaway",
+        "shortCommand": "lookaway",
+        "icon": "https://lookaway.app/images/icon.svg"
+    },
+    {
+        "id": 20,
         "softName": "Microsoft Edge",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -209,7 +220,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/825fb5bf46fa0733ad8ead9d0ee9561a_LjGgDI3WTB.png"
     },
     {
-        "id": 20,
+        "id": 21,
         "softName": "Microsoft Office",
         "cost": "Paid",
         "hasUpgradePlan": "Yes",
@@ -220,7 +231,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/277e5df7538bad00857bf649733616c8_Kcn4pjEzsD.png"
     },
     {
-        "id": 21,
+        "id": 22,
         "softName": "MonitorControl",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -231,7 +242,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/d727fbe81a79c1c02c1ad463488d8df6_low_res_MonitorControl.png"
     },
     {
-        "id": 22,
+        "id": 23,
         "softName": "Node",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -242,7 +253,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/7ede968da65fcd7a2734641e77fdec12_low_res_node.png"
     },
     {
-        "id": 23,
+        "id": 24,
         "softName": "Notion",
         "cost": "Almost Free",
         "hasUpgradePlan": "Yes",
@@ -253,7 +264,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/edd1187d9ca7d2ff5f126ff0f8945563_kbvNfoXHXp.png"
     },
     {
-        "id": 24,
+        "id": 25,
         "softName": "Notion Calendar",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -264,7 +275,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/2bb86c502412b0e99ceea10e5f8c529c_low_res_Notion_Calendar.png"
     },
     {
-        "id": 25,
+        "id": 26,
         "softName": "Notion Enhanced",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -275,7 +286,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/c7a8d6dd40776ce63ac8777c8839f707_0H7z3br1dS.png"
     },
     {
-        "id": 26,
+        "id": 27,
         "softName": "Obsidian",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -286,7 +297,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/9db277b5f209106b83ae4fe712953b35_low_res_Obsidian.png"
     },
     {
-        "id": 27,
+        "id": 28,
         "softName": "qBittorrent",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -297,7 +308,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/a192d8082feb948f9bf5b5b5fe284463_ryFEn7BEw7.png"
     },
     {
-        "id": 28,
+        "id": 29,
         "softName": "Quiet Reader",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -308,7 +319,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/47d132353868dcd87eea7e1697864d9b_8mcDwsMNJ0.png"
     },
     {
-        "id": 29,
+        "id": 30,
         "softName": "RayCast",
         "cost": "Almost Free",
         "hasUpgradePlan": "Yes",
@@ -319,7 +330,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/ff9688e8751c364dbe41e7ec986e63ec_low_res_Raycast.png"
     },
     {
-        "id": 30,
+        "id": 31,
         "softName": "Rectangle",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -327,10 +338,10 @@
         "trialLength": "0 days",
         "command": "brew install --cask rectangle",
         "shortCommand": "rectangle",
-        "icon": "http://"
+        "icon": "https://static.macupdate.com/products/61506/m/rectangle-logo.webp?v=1668710525"
     },
     {
-        "id": 31,
+        "id": 32,
         "softName": "Shottr",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -341,7 +352,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/3b623af5e20c47946a407e2657a8a5bf_low_res_Shottr.png"
     },
     {
-        "id": 32,
+        "id": 33,
         "softName": "SpeedTest CLI",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -352,7 +363,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/98002df61a46a9821fd0de028ae36a6f_CVZj8jr8tJ.png"
     },
     {
-        "id": 33,
+        "id": 34,
         "softName": "Stats",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -363,7 +374,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/e1957d45bd37c8f39a9ea68a1c615b01_low_res_Stats.png"
     },
     {
-        "id": 34,
+        "id": 35,
         "softName": "TeamViewer",
         "cost": "Almost Free",
         "hasUpgradePlan": "Yes",
@@ -374,7 +385,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/710941508baffe4eba2f124c60807316_5ldCceRQCS.png"
     },
     {
-        "id": 35,
+        "id": 36,
         "softName": "Telegram",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -385,7 +396,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/e7658ad1a3e21d73b42c8b97831f9146_eh05VaHFmc.png"
     },
     {
-        "id": 36,
+        "id": 37,
         "softName": "VirtualBox",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -396,7 +407,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/5e53310a7d1c78be3f2b16661e217907_fKeoz3Pgsx.png"
     },
     {
-        "id": 37,
+        "id": 38,
         "softName": "Visual Studio Code",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -407,7 +418,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/a20e550c4a5ec91a53d2299edfd19095_mVgBEC4mQx.png"
     },
     {
-        "id": 38,
+        "id": 39,
         "softName": "WebStorm",
         "cost": "Paid",
         "hasUpgradePlan": "Yes",
@@ -418,7 +429,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/a39306bcaf149df976dd700d91a308d5_low_res_WebStorm__with_Background_.png"
     },
     {
-        "id": 39,
+        "id": 40,
         "softName": "WhatsApp",
         "cost": "Free",
         "hasUpgradePlan": "No",
@@ -429,7 +440,7 @@
         "icon": "https://parsefiles.back4app.com/JPaQcFfEEQ1ePBxbf6wvzkPMEqKYHhPYv8boI1Rc/995645e3e3af006c3fcb010ce9115849_low_res_WhatsApp.png"
     },
     {
-        "id": 40,
+        "id": 41,
         "softName": "Windscribe",
         "cost": "Usable",
         "hasUpgradePlan": "Yes",
