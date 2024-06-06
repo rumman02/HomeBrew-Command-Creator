@@ -4,10 +4,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px 15px 10px;
+    padding: 20px;
     position: relative;
     box-shadow: rgba(0, 0, 0, 0.106) 12px 12px 10px, white 10px 10px 10px inset, rgba(255, 255, 255, 0.958) 10px 10px 10px;
     transition: all 0.2s ease;
+
 }
 
 .softsContianer:hover {
@@ -28,24 +29,32 @@
 }
 
 label {
+    /* outline: 1px solid; */
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .iconContainer {
     /* outline: 10px solid red; */
+    /* outline: 1px solid; */
     width: 30%;
 }
 
+.iconContainer>div {
+
+    width: 100%;
+}
+
 .iconContainer img {
+    /* outline: 1px solid; */
     display: inline-block;
     width: 100%;
 }
 
 
 .detailsContainer {
-    /* outline: 10px solid red; */
 
     width: 65%;
     height: 100%;
@@ -98,6 +107,7 @@ label {
     position: relative;
     /* outline: 1px solid; */
     cursor: pointer;
+    overflow: hidden;
 }
 
 .commandBar .command {
@@ -120,23 +130,22 @@ label {
     font-family: "JetBrains Mono", monospace;
     position: absolute;
     left: 0%;
-    /* transform: translateX(-50%); */
     background-color: transparent;
-    width: 30%;
+    /* background-color: rgb(209, 209, 209); */
+    width: 0%;
     height: 100%;
     border-radius: 5px;
     text-align: center;
     padding-top: 3px;
     color: transparent;
     /* display: none; */
-    transition: color 0.2s ease, background-color 0.2s ease, width 0.5s ease;
+    /* transition: color 0.2s ease, background-color 0.2s ease, width 0.5s ease; */
+    transition: all 0.4s ease;
 }
 
-.commandBar:hover .copy {
+
+.commandBar .copyActive {
     color: black;
     background-color: rgb(209, 209, 209);
-}
-
-.commandBar:active .copy {
     width: 100%;
 }

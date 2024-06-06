@@ -15,8 +15,6 @@ const CommandCopyBar = ({ commands }) => {
         });
     };
 
-
-
     return (
         <>
             {commands.length !== 0 && (<div className="commandCopyBar" >
